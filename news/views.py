@@ -38,8 +38,7 @@ def scrape(request):
         new_headline.image = image_src
         new_headline.save()
 
-    # pass
-    return redirect("../home")
+    return redirect("/home")
 
 
 def news_list(request):
